@@ -1,0 +1,28 @@
+{
+  "words": [
+    {
+      "kanjiWord": "雨",
+      "kanagiriWord": "あめ",
+      "romanjiWord": "ame",
+      "englishWord": "Rain",
+      "category": "weather",
+      "id": 1
+    },
+    {
+      "kanjiWord": "こんばんは",
+      "katakanaWord": "こんばんは",
+      "romanjiWord": "konbanha",
+      "englishWord": "Good Evening",
+      "category": "greetings",
+      "id": 2
+    },
+    {
+      "kanjiWord": "おはようございます",
+      "katakanaWord": "おはようございます",
+      "romanjiWord": "Ohayou-gozaimasu",
+      "englishWord": "Good Morning",
+      "category": "greetings",
+      "id": 3
+    }
+  ]
+}

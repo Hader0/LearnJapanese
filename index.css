@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+}
+
+Header div {
+    color: #DC143C;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+Header {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 10vh;
+    min-height: 10vh;
+    background-color: #fff;
+    border-bottom: solid 1px;
+    border-color: #DC143C;
+    cursor: pointer;
+}
+
+Header ul {
+    list-style: none;
+    margin-left: auto;
+    margin-right: 10px;
+    display: flex;
+}
+
+Header ul li {
+    margin-right: 1rem;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #DC143C;
+    padding: 7px;
+    min-width: 50px;
+    border-color: #DC143C;
+    border: solid 1px;
+    border-radius: 12px;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+Header ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+Header ul li:hover {
+    background: #DC143C;
+    color: #fff;
+}

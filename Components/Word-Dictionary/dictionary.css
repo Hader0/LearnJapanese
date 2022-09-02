@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.dictionary-div {
+    margin-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+ /* Dictionary add */
+.dictionary-add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.da-title {
+    font-size: 25px;
+}
+
+.da-input {
+    width: 400px;
+    height: 20px;
+    margin-top: 8px;
+}
+
+.da-input:hover {
+    height: 20px;
+    border: 2px solid black;
+}
+
+.da-select {
+    width: 300px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.da-select:hover {
+    height: 20px;
+    border: 2px solid black;
+}
+
+.da-button {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #f05272;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.da-button:hover {
+    background-color: #DC143C;
+}
+
+/* Category Div */
+
+.category-div-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.category-div {
+    min-width: 100px;
+    max-width: 100px;
+    background-color: #f05272;
+    color: #fff;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 100px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.category-div:hover {
+    background-color: #BF40BF;
+}
+
+/* Dictionary Category */
+
+.wordDiv {
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 20px
+}
+
+.dictionary-category-div {
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.kanji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    background-color: #4169E1;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.kanjiDiv {
+    color: #fff;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    text-transform:capitalize;
+    color: #fff;
+    background-color: #003153;
+    border-radius: 8px;
+}
+
+.categoryType {
+    padding: 16px;
+    font-size: 20px;
+}
+
+.katakanaWord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    color: #fff;
+    background-color: #4169E1;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.romanjiWord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    color: #fff;
+    background-color: #4169E1;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.englishWord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    color: #fff;
+    background-color: #4169E1;
+    border-radius: 8px;
+    margin-top: 5px;
+}
